@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Limka and Food Cart - Fresh Drinks & Tasty Fast Food</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-utensils"></i> Syed Limka & Food
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#location" class="nav-link">Location</a></li>
+                <li><a href="#jobs" class="nav-link">Careers</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Fresh Drinks & Tasty Fast Food</h1>
+            <p class="tagline">at Burns Road Food Street</p>
+            <p class="hero-description">Experience the best street food with refreshing drinks and delicious fast food prepared fresh daily!</p>
+            <button class="cta-btn" onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})">
+                Explore Menu
+            </button>
+        </div>
+        <div class="hero-images">
+            <div class="hero-image-item">
+                <i class="fas fa-ice-cream"></i>
+            </div>
+            <div class="hero-image-item">
+                <i class="fas fa-hamburger"></i>
+            </div>
+            <div class="hero-image-item">
+                <i class="fas fa-cup"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <p class="section-subtitle">All items are fresh and hygienic</p>
+            
+            <div class="menu-grid">
+                <!-- Drinks -->
+                <div class="menu-category">
+                    <h3><i class="fas fa-wine-glass"></i> Refreshing Drinks</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Soda</h4>
+                            <p>Cold & refreshing soda drinks</p>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Limka</h4>
+                            <p>Citrus-flavored refreshment</p>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Fresh Mint Drinks</h4>
+                            <p>Cooling mint beverages</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fast Food -->
+                <div class="menu-category">
+                    <h3><i class="fas fa-burger"></i> Fast Food</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <h4>Burgers</h4>
+                            <p>Juicy & delicious burgers</p>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Fries</h4>
+                            <p>Crispy & golden fries</p>
+                        </div>
+                        <div class="menu-item">
+                            <h4>Combo Deals</h4>
+                            <p>Best value meal combinations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="freshness-badge">
+                <i class="fas fa-check-circle"></i>
+                <p><strong>Quality Guarantee:</strong> All items are fresh and hygienic</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <div class="about-story">
+                    <p>
+                        Welcome to <strong>Syed Limka and Food Cart</strong>! Our journey started with a simple passion: 
+                        serving the best street food with a commitment to quality and freshness.
+                    </p>
+                    <p>
+                        Located at the heart of <strong>Burns Road Food Street</strong>, we've built our reputation on three pillars:
+                    </p>
+                    <ul class="about-values">
+                        <li><i class="fas fa-leaf"></i> <strong>Fresh Ingredients:</strong> Only the freshest drinks and ingredients</li>
+                        <li><i class="fas fa-star"></i> <strong>Exceptional Taste:</strong> Recipes perfected over years</li>
+                        <li><i class="fas fa-handshake"></i> <strong>Customer Satisfaction:</strong> Your happiness is our priority</li>
+                    </ul>
+                    <p>
+                        Every drink is chilled to perfection, and every meal is prepared with care. 
+                        Come visit us and taste the difference!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <div class="container">
+            <h2>Find Us</h2>
+            <p class="section-subtitle">Burns Road Food Street</p>
+            <div class="location-content">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.298649876899!2d67.01622!3d24.8600!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d1a5e5e5e5d%3A0x123456789!2sBurns%20Road%2C%20Karachi!5e0!3m2!1sen!2spk!4v1234567890" 
+                            width="100%" height="400" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="location-info">
+                    <h3>Location Details</h3>
+                    <p><strong>Burns Road Food Street</strong></p>
+                    <p>One of the most vibrant food destinations in the city!</p>
+                    <p class="location-hours">
+                        <i class="fas fa-clock"></i> Open Daily | 2:00 PM - 11:00 PM
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jobs Section -->
+    <section id="jobs" class="jobs">
+        <div class="container">
+            <h2>We Are Hiring!</h2>
+            <p class="section-subtitle">Join our team and be part of something great</p>
+            
+            <div class="job-posting">
+                <div class="job-header">
+                    <h3><i class="fas fa-briefcase"></i> Food Cart Worker</h3>
+                    <span class="job-type">Full-Time</span>
+                </div>
+
+                <div class="job-section">
+                    <h4>About the Role</h4>
+                    <p>We're looking for dedicated and hardworking individuals to join our food cart team at Burns Road Food Street.</p>
+                </div>
+
+                <div class="job-section">
+                    <h4>Responsibilities</h4>
+                    <ul class="job-list">
+                        <li><i class="fas fa-check"></i> Handle and manage the food cart operations</li>
+                        <li><i class="fas fa-check"></i> Serve customers with excellent service</li>
+                        <li><i class="fas fa-check"></i> Sell drinks and food items effectively</li>
+                        <li><i class="fas fa-check"></i> Maintain cleanliness and hygiene standards</li>
+                        <li><i class="fas fa-check"></i> Handle cash transactions</li>
+                    </ul>
+                </div>
+
+                <div class="job-section">
+                    <h4>Requirements</h4>
+                    <ul class="job-list">
+                        <li><i class="fas fa-star"></i> Hardworking and honest</li>
+                        <li><i class="fas fa-star"></i> Good communication skills with customers</li>
+                        <li><i class="fas fa-star"></i> Punctuality and reliability</li>
+                        <li><i class="fas fa-star"></i> Physical fitness for standing work</li>
+                        <li><i class="fas fa-star"></i> Team player mentality</li>
+                    </ul>
+                </div>
+
+                <button class="apply-btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-paper-plane"></i> Apply Now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="section-subtitle">We'd love to hear from you</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>+92-XXX-XXXXXXX</p>
+                        <p class="contact-desc">Call us for orders or inquiries</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <h4>WhatsApp</h4>
+                        <a href="https://wa.me/923001234567" class="whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                        </a>
+                        <p class="contact-desc">Quick orders and support</p>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Location</h4>
+                        <p>Burns Road Food Street</p>
+                        <p class="contact-desc">Find us easily on the map</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" onsubmit="handleSubmit(event)">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Syed Limka and Food Cart. All rights reserved.</p>
+            <p>Burns Road Food Street | Fresh Drinks & Tasty Fast Food</p>
+            <div class="social-links">
+                <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
